@@ -29,24 +29,16 @@ Docker (optional, for containerization)
 ## Setting Up the Application
 1. Clone the repository to your local machine.
 2. Navigate to the /app directory and install dependencies:
-'''
-cd app
-npm install
-'''
+'''cd app
+npm install'''
 3. Start the application locally:
-'''
-npm start
-'''
+'''npm start'''
 ## Deploying the Application
 1. Navigate to the /infra directory.
 2. Initialize Terraform to download necessary providers:
-'''
-terraform init
-'''
+'''terraform init'''
 3. Apply Terraform configuration to provision the infrastructure:
-'''
-terraform apply
-'''
+'''terraform apply'''
 4. Follow the CI/CD pipeline instructions in /.github/workflows to set up automated deployment.
 
 ## Contributing
